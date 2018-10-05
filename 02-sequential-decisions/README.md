@@ -56,7 +56,7 @@ these reward signal ourselves. Ideally, we are able to identify a natural signal
 The model representation described above is widely known as Markov Decision Processes (MDP). MDP is a framework
 for modeling sequential decision-making problems. An MDP is composed of a tuple (S, A, R, T) in which S is the set
 of states, A is the set of actions, R is the reward function mapping a state and action pairs to a numeric value, T is
-the transition function mapping the probability of reaching a state to a state an action pair.
+the transition function mapping the probability of reaching a state to a state and action pair.
 
 We will be using MDPs moving forward, though it is important to mention that MDPs have lots of variants,
 Dec-MDP, POMDP, QMDP, AMDP, MC-POMDP, Dec-POMDP, ND-POMDPs, MMDPs are some of the most common ones. They all
